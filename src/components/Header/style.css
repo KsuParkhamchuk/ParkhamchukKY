@@ -1,0 +1,41 @@
+header {
+    box-shadow: 0 0 7px #dddddd;
+    display: flex;
+    align-items: center;
+}
+
+.nasaLogo img{
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+}
+
+.header__navigation {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header__navigation--link {
+    margin-right: 20px;
+    text-decoration: none;
+    color:#2b1682;
+    font-weight: bold;
+}
+
+.header__navigation--link:hover {
+    border-bottom: 1px solid #2b1682;
+}
+
+.header__navigation--auth {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header__navigation--link.signIn {
+    background-color: #2b1682;
+    color: white;
+    padding: 5px 15px;
+}
